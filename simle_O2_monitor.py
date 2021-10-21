@@ -220,7 +220,7 @@ while discovery() == False:
 
 if __name__ == "__main__":
     # Define a decimation factor variable
-    decimation_factor = 100 #was 1000
+    decimation_factor = 1000 #was 1000
 
     # Contains accumulated values for each analog channel used for the average calculation
     achan_accumulation_table = list(())
